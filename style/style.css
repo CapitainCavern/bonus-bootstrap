@@ -3,6 +3,8 @@ body {
   background-image:url(../images/background.png);
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Mina', sans-serif;
+  
 
 }
 .logo {
@@ -11,7 +13,12 @@ body {
 .top-nav  {
   margin-left: 250px;
   margin-top: 60px;
-
+  
+}
+.top-button {
+  background-color: #fffcef;
+  border-radius: 5px;
+  
 }
 button:hover {
   background-color: #333644;
@@ -19,6 +26,7 @@ button:hover {
   border: none;
 
 }
+
 .align-text-top {
   float: right;
 
@@ -35,35 +43,35 @@ button {
   border: none;
   padding: 8px;
 }
-.social {
-  background-color: #efefef;
-  border-radius: 50%;
+  .social {
+    background-color: #efefef;
+    border-radius: 50%;
   padding : 5px;
   float: right;
   margin: 5px;
 
 }
+
 .social:hover {
   background-color: #333644;
   color: white;
+}
 
-}
-.border-secondary {
-  color: #8C3717;
-}
 section {
   margin: auto;
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid:#8C3717;
-  width: 80%;
   margin-left: 200px;
-  border: 2px; solid #8C3717;
-
-
-
+  margin-bottom: 40px;
+  width: 75%;
+  
 }
-.
+.pink ,.blue {
+  margin-left: 210px;
+  margin-top: -55px;
+  
+  
+}
+
+
 .cat-button1 {
   height:20px;
 }
@@ -72,26 +80,40 @@ section {
   color: #8C3717;
   font-size: 20px;
 }
-hr {
-  width: 90%;
+.hr {
+  width: 75%;
   color :#333644;
+  margin-right: 120px;
+  margin-left: 120px;
+  
 }
-
+.nav-block {
+  margin-top: 60px;
+  
+}
 .copyright {
   font-weight: bold;
   line-height: 1px;
+  float: left;
 }
-nav-footer {
+.nav-footer {
   text-align: center;
 
 }
-.agence-footer {
-  margin-left: 200px;
+.prev, .next {
+  margin-left: 20px;
+  text-align: center;
+  background-color: #fffcef
+}
+#agence-footer {
+  margin-left: 115px;
+  
 }
 .mentions-légales {
-  float: right;
   font-weight: bold;
   text-align: justify;
+  margin-right: 120px;
+  margin-top: -10px;
 
 
 }
